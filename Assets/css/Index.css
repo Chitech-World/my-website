@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "montserrat";
+    background-color: #181823;
+}
+
+html{
+    /* scroll-behavior: smooth; */
+}
+main{
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+
+header nav{
+    width: 50%;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 5px;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    height: 50px;
+    display: centre;
+    
+    
+}
+.first-child{
+    width: 50%;
+    color: #fff;
+    margin-left: 10%;
+    /* display: flex; */
+    /* font-size: 10px; */
+    float: left;
+    /* overflow: hidden;    */ 
+}
+.emoji{
+    font-size:30px;
+
+
+}
+.exclamation{
+    font-size: 30px;
+    
+}
+a {
+    padding: 10px 10px 20px;
+    color: darkgray;
+
+    
+}
+.a-2{
+    color: #fff;
+
+}
+span{
+    color: cadetblue;
+}
+
+.text-1 {
+    font-size:20px;
+    color:#fff;
+    position:fixed;
+    margin-top: 4rem;
+    
+}
+
+
+:link{
+    color: darkgray;
+    display: inline-block;
+    
+}
+.link-1{
+    display: inline-block;
+    
+    
+    
+}
+.navbar{
+    position: fixed;
+    margin-top: -20px;
+    width: 50%;
+    font-size: 20px;
+    padding: 40px;
+}
+
+
+a:hover{
+    color: darkgray;
+    cursor: pointer;
+    transition: all 2s linear;
+    transform: rotateX(360DE);
+
+}
+
+.project:hover{
+    color: red;
+}
+.fa-brands{
+    padding:15px;
+    border-radius:5px;
+    font-size: 40px;
+    background-color: cadetblue;
+    color: #fff;
+    justify-content:space-between;
+    gap: 50px;
+    margin-left: 20px;
+}
+a::after{
+    content: "";
+    background-color:darkgray;
+    height: 3px;
+    width: 0;
+    margin: auto;
+    display: block;
+    
+}
+a:hover::after{
+    width: 100%;
+    transition:width 0.3s linear;
+}
+
+
+.eye{
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.biography{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: poppins-serif;
+    
+}
+
+.chika{
+    color: dodgerblue;
+    margin-top:70px;
+    
+}
+.developer{
+    color: cadetblue;
+    font: size 10px;
+}
+.name{
+    font-size: 90px;
+    
+}
+.download:hover{
+    pointer-events: none;
+    color: #fff;
+    
+}
+
+.technology{
+    color:  cadetblue;
+}
+.about{
+    color:  cadetblue;;
+}
+.download {
+    width: 50%;
+    font-size: 30px;
+    padding: 2px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: 0;
+    margin-top:20px;
+    color:#fff;
+    height: 50px;
+    background-color: #2C3333;
+    font: weight 400px;
+}
+    
+
+.cup{
+    display: flex;
+    margin: left px;
+    margin-left:0px;
+    margin-right: 0;
+    font-size: 150%;
+    margin-top: 10px;
+    color: darkgray;
+     
+}
+body{
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+.second-child{
+    display:flex;  
+    /* background-color:white; */
+    /* margin:0px; */
+    /* margin-top: 90px; */
+
+    
+    
+
+}
+.text-2 {
+    font-size:20px;
+    color: #fff;
+    margin-left: 5%; 
+    margin-bottom: 10px;  
+}
+.fa-twitter{
+    font-size:25px;
+    background-color: cadetblue;
+    
+    
+}
+.fa-instagram{
+    font-size:25px;
+    background-color: cadetblue;
+}
+.fa-linkedin{
+    font-size:25px;
+    background-color: cadetblue;
+}
+.fa-github{
+    font-size:25px;
+    background-color: cadetblue;
+}
+
+
+.html{
+    margin-left: 20px;
+    color:  #fff;
+}
+.java{
+    margin-left:30px;
+    font-size: 15px;
+    font-weight: normal;
+    color:#fff;
+}
+.css{
+    margin-left: 40px;
+    color: #fff;
+}
+
+  .react{
+    margin-left: 12px;
+    color:  #fff;
+  }  
+.whatsapp{
+margin-left: 15px;
+color: #fff;
+
+}
+
+.youtube{
+    margin-left: 20px;  
+    color: #fff;
+}
+
+
+
+.facebook{
+margin-left: 30px;
+color: #fff;
+}
+
+
+
+
+.slack{
+margin-left: 30px;
+font-size: 30px;
+color: #fff;
+}
+
+.talk-to-me{
+    color:  darkgray;
+}
+
+form{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+form > input {
+    background-color: red;
+}
+
+form > label {
+    background-color: yellow;
+}
+
+.icon {
+    /* position: fixed; */
+    /* margin: 0; */
+}
